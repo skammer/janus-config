@@ -1,0 +1,5 @@
+call janus#disable_plugin('syntastic', "It is very slow on big files")
+let g:syntastic_enable_signs=1
+let g:syntastic_auto_loc_list=1
+let g:syntastic_disabled_filetypes = ['sass', 'scss', 'css']
+

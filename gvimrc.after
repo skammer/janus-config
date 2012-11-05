@@ -1,0 +1,3 @@
+" re-remap CMD-t to open tabs
+macmenu &File.New\ Tab key=<D-t>
+
