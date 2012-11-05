@@ -1,0 +1,21 @@
+[submodule "vim-ragtag"]
+	path = vim-ragtag
+	url = https://github.com/tpope/vim-ragtag.git
+[submodule "tabular"]
+	path = tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "vim-sparkup"]
+	path = vim-sparkup
+	url = https://github.com/tristen/vim-sparkup.git
+[submodule "sparkup"]
+	path = sparkup
+	url = git://github.com/tristen/vim-sparkup.git
+[submodule "rainbow_parantheses"]
+	path = rainbow_parantheses
+	url = git://github.com/kien/rainbow_parentheses.vim.git
+[submodule "vim-indent-guides"]
+	path = vim-indent-guides
+	url = git://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "vim-swaplines"]
+	path = vim-swaplines
+	url = git://github.com/skammer/vim-swaplines.git
