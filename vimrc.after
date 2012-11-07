@@ -71,9 +71,9 @@ map <leader>ed :e ~/.vimrc.after<CR>
 " Reload ~/.vimrc
 map <leader>rv :source ~/.vimrc.after<CR>
 " Vertical split
-map <leader>vsp :vsp<cr>
+map <leader>vsp :vnew<cr>
 " Horizontal split
-map <leader>sp :sp<CR>
+map <leader>sp :new<CR>
 
 " Fold/unfold block
 imap <silent> <D-d> <Esc>za
