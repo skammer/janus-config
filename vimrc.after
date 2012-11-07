@@ -284,3 +284,15 @@ inoremap <C-_> <Space><BS><Esc>:call InsertCloseTag()<cr>a
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 
+
+" Toggle line number display mode
+function! NumberToggle()
+  if(&relativenumber == 1)
+    set number
+  else
+    set relativenumber
+  endif
+endfunc
+
+nnoremap <leader>l :call NumberToggle()<cr>
+
