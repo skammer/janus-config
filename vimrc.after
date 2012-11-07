@@ -96,9 +96,6 @@ imap <S-D-Left> <ESC>:bp<cr>
 map <S-D-Right> :bn<cr>
 imap <S-D-Right> <ESC>:bn<cr>
 
-map <leader>nt :NERDTreeToggle<CR>
-
-
 fun! StripTrailingWhitespaces()
     let l = line(".")
     let c = col(".")
