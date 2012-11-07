@@ -67,9 +67,9 @@ if has('gui_running')
 endif
 
 " Edit ~/.vimrc
-map <leader>ed :e $MYVIMRC<CR>
+map <leader>ed :e ~/.vimrc.after<CR>
 " Reload ~/.vimrc
-map <leader>rv :source $MYVIMRC<CR>
+map <leader>rv :source ~/.vimrc.after<CR>
 " Vertical split
 map <leader>vsp :vsp<cr>
 " Horizontal split
