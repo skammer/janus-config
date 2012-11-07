@@ -301,3 +301,6 @@ nnoremap <leader>l :call NumberToggle()<cr>
 nnoremap / /\v
 vnoremap / /\v
 
+" disable janus maps that conflict with VimClojure
+unmap <leader>et
+unmap <leader>rt
