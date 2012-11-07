@@ -296,3 +296,8 @@ endfunc
 
 nnoremap <leader>l :call NumberToggle()<cr>
 
+
+" Use sane regexes.
+nnoremap / /\v
+vnoremap / /\v
+
